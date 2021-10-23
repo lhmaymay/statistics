@@ -1,0 +1,10 @@
+sampling bias: a biased sample caused by non-random sample, resulting in a sample that is not representative of the population. for example:  top 10%, bottom 10% ads.  
+under coverage bias: sampling too few observations, <5% from total population
+survivor bias: error of overlooking observations that did not make it past a form of selection process. airplane returned to airports after wars.
+time interval: running experiments or analysis on holidays for sales analysis, conclusion would be not solid.
+exposure: includes clinical susceptibility bias, protopathic bias, indication bias.
+attrition: attrition bias is similar to survivorship bias, where only those that survived a long process are included in an analysis, or failure bias, where only those failed are included.
+data: cherry picking to read results from experiments (sub-pockets), suppressing evidence, and the fallacy of incomplete evidence.
+observer selection: any data we collected by universe is filtered by the fact that in order for it to be observable it must be comptatible with the conscious and sapient life that observes it.
+
+
