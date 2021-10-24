@@ -1,0 +1,9 @@
+Question:
+The Central limit Theorem states that when sample size tends to infinity, the sample mean will be normally distributed. The Law of Large Number states that when sample size tends to infinity, the sample mean equals to population mean. Is the two statements contradictory?
+
+Hi Jonathan,
+The two statements are not contradictory.
+
+The Central Limit Theorem tell us that as the sample size tends to infinity, the of the distribution of sample means approaches the normal distribution. This is a statement about the SHAPE of the distribution. A normal distribution is bell shaped so the shape of the distribution of sample means begins to look bell shaped as the sample size increases.
+
+The Law of Large Numbers tells us where the center (maximum point) of the bell is located. Again, as the sample size approaches infinity the center of the distribution of the sample means becomes very close to the population mean.
