@@ -1,5 +1,11 @@
 Simpson’s Paradox:
+https://towardsdatascience.com/simpsons-paradox-and-interpreting-data-6a0443516765
+
 A trend or result that is present when data is put into groups that reverses or disappears when the data is combined.
 
 One of the most famous examples of Simpson’s paradox is UC Berkley’s suspected gender-bias. At the beginning of the academic year in 1973, UC Berkeley’s graduate school had admitted roughly 44% of their male applicants and 35% of their female applicants. The story usually goes that the school was sued for gender discrimination, although this isn’t actually true. The school did however fear a lawsuit, and so they had statistician Peter Bickel look at the data. What he found was surprising: there was a statistically significant gender bias in favour of women for 4 out of the 6 departments, and no significant gender bias in the remaining 2. Bickel’s team discovered that women tended to apply to departments that admitted a smaller percentage of applicants overall, and that this hidden variable affected the marginal values for the percentage of accepted applicants in such a way as to reverse the trend that existed in the data as a whole. Essentially, the conclusion flipped when Bickel’s team changed their data-viewpoint to account for the school being divided into departments!
 A visual example: the overall trend reverses when data is grouped by some colour-represented category.
+
+Simpson’s paradox can make decision-making hard. We can scrutinise and regroup and resample our data as much as we are able to, but if multiple different conclusions can be drawn from all the different categorisations, then choosing a grouping to draw our conclusions from in order to gain insight and develop strategies is a nuanced and difficult problem. We need to know what we are looking for, and to choose the best data-viewpoint giving a fair representation of the truth. Let’s think about a simple example in business.
+
+
