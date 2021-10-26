@@ -1,0 +1,15 @@
+Define the metric. Pretty much all case studies start with a vague goal and the first step is translating that
+into a metric that can be optimized. I.e. "I define engagement on FB as the proportion of users who take at
+least one action per day where action means interacting with the site, i.e. posting, liking, uploading a
+picture, etc". As long as it makes sense, it doesn't matter much how the metrics is exactly defined, like
+which thresholds you choose (once a day in this example) or which actions you choose to include or
+whether you say average actions per user instead of pct of users above a certain threshold. But it is
+crucial to define a concrete metric. For instance, response rate on Quora would not be a concrete metric.
+It can't be evaluated, it is too vague. But percentage of questions that get at least one response within a
+day is a metric. 
+
+As a general advice, try to pick a metric that is related to the company mission. Like FB cares about
+interactions between users, that's why above we picked actions that incentivize that. Quora cares about
+high level content, so you might always want to include some quality measure (ex: responses with at least
+3 up-votes within the first day), Airbnb is about "belonging anywhere" so focus on the fact that if you want
+to go to a given place, you can do it, etc. Especially Silicon Valley companies love these things
