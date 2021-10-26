@@ -1,2 +1,4 @@
-When asked to pick variables, pick a combination of user demographic characteristics (age, sex, country, etc.) and
-behavioral ones (related to their browsing behavior), user experience/interactions with customer service (complaints/tickets)
+
+After the metric, pick the variables you think would matter to move that metric. Almost always a
+combination of user characteristics (sex, age, country, # of friends, etc.) and related to their
+browsing/online behavior (device, they came from ads/SEO/direct link, session time, etc.).
