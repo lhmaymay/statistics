@@ -1,0 +1,6 @@
+Effect size:It is simply a way of quantifying the size of the difference between two groups. Effect size is the magnitude of the difference between groups.
+It is a simple way of quantifying the difference between two groups that has many advantages over the use of tests of statistical significance alone. Effect size 
+emphasises the size of the difference rather than confounding this with sample size.
+One feature of an effect size is that it can be directly converted into statements about the overlap between the two samples in terms of a comparison of percentiles.
+An effect size is exactly equivalent to a 'Z-score' of a standard Normal distribution. For example, an effect size of 0.8 means that the score of the average person 
+in the experimental group is 0.8 standard deviations above the average person in the control group, and hence exceeds the scores of 79% of the control group. 
