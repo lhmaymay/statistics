@@ -4,3 +4,35 @@
 
 Google mission statement is “to organize the world's information and make it universally accessible and useful.” Google is perhaps the most successful company 
 to come up with a strategic approach to organize information for online users in the last two decades.
+
+Founded in 2004, Facebook's mission is to give people the power to build community and bring the world closer together. People use Facebook to stay connected 
+with friends and family, to discover what's going on in the world, and to share and express what matters to them.
+
+In case studies, almost never they will explicitly tell you the metric you have to optimize for. Instead, they
+will just tell you the business goal, such as improve retention, growth, mobile usage, etc. It is your
+responsibility to mathematically translate the business goal into a metric. If you don't do it, it is an almost
+automatic fail. If you do it, 90% of the question has been answered
+When they ask you to choose a metric for a new feature, product, or even a department, start from the
+high level company goal. In most cases, that is (or should be) growth. Then narrow it down. Example:
+You can grow by increasing user retention or user acquisition
+You can increase user retention by increasing user engagement
+I pick metric X cause it is related to user engagement and, if I move it, I can realistically expect to
+improve company growth
+If you can't eventually link your metric to company growth, that's a huge warning that your metric isn't that
+useful
+The high majority of metrics need a time threshold in order to be evaluated. Average likes per user can't
+be evaluated. Average likes per user per day can be evaluated. If the question is specifically about
+building a metric, don't forget this
+If asked how to improve a product, the easiest way is: focus on actions that you want to incentivize and
+users are already performing today, but it takes them several steps on the app/website to finish them.
+There is no better proxy for feature demand that users already doing something despite a complicated
+user flow. Simplifying the flow will most likely improve your target metrics
+If asked "Should we implement X" or "How to improve Z", the goal is simply explaining step by step how
+you would find the answer, if you had the data in front of you. They are testing how you approach a
+problem, not if you are a product visionary
+When asked to optimize a long term metric like retention rate or lifetime value, the question means: find a
+short term metric that can predict the long term one, and then focus on optimizing that one
+Introduction
+ID:298573 10
+When asked to pick variables, pick a combination of user characteristics (age, sex, country, etc.) and
+behavioral ones (related to their browsing behavior)
