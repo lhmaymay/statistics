@@ -1,0 +1,16 @@
+
+1: How to calculate variance when independence assumption is violated 
+Bootstrapping: non-parametric method , 
+Delta method:  The 'delta' method, also known as 'propagation of errors', is a useful way to estimate variances of functions of random variables. 
+When A, B are normal , f(A,B) variance  = (df/dA  df/dB) * SIGMA * (df/dA  df/dB)`.
+ The 'delta method' is based on the first-degree Taylor's expansion of the function f(A, B), and requires that the function be at least differentiable.
+It generalizes to higher dimensions in a straightforward way.
+Now let f(X, Y) = X / Y.  Then the estimated variance of f(Abar, Tbar) is
+[1]  (df/dX)^2 * var(Abar) + 2*(df/dX)*(df/dY)*cov(Abar, Tbar) + (df/dY)^2 * var(Tbar).
+Here df/dX will be evaluated at X = Abar, Y = Tbar.
+Note that df/dX = 1/Y and df/dY = -X/Y^2.
+The rest is arithmetic, inserting the right numbers into
+
+2: how to estimate variance if you don't know if the distribution is normal or not 
+bootstrapping 
+
