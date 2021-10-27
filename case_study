@@ -4,7 +4,7 @@ Metrics?
 How to move the metric?
 Variables, EDA, dimensions for segmentation, one bad segment, one good segment. Use combination of user characteristics (sex, age, country, # of friends, etc.) 
 and related to their browsing/online behavior (device, they came from ads/SEO/direct link, session time, etc.).
-A/B testing, experimentation on new product/features? any cannibanization? 
+A/B testing, experimentation on new product/features? any cannibanization?  test and control need to be independent and comparable before the test. comparable cities
 if not possible, then modeling? short term proxy/index? list of model attributes? what kind of model algorithm to use? why this algorithm? explain the model and insights from the model?
 (using SHAP, paritial dependence plots, feature importance report) 
 survey, UX research
