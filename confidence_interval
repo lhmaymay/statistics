@@ -15,3 +15,16 @@ KEY TAKEAWAYS
 A confidence interval displays the probability that a parameter will fall between a pair of values around the mean.
 Confidence intervals measure the degree of uncertainty or certainty in a sampling method.
 They are most often constructed using confidence levels of 95% or 99%.
+
+
+
+ 
+ 
+ 
+  
+  Confidence Interval
+What is Confidence interval? How to increase it
+If taking repeated random samples to estimate the true population parameter and each time generate a confidence interval for each sample, 95% of the intervals 
+will contain the true population parameter.
+95% of the time, when we calculate a confidence interval this way, the true parameter will be between the two values. 5% of the time, it’s not.
+The "95%" says that 95% of experiments like we just did will include the true population parameter (e.g. mean), but 5% won’t.
