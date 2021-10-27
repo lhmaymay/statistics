@@ -2,7 +2,8 @@ Framework for case study: typical case study questions (i.e.How do you increase 
 1. What is the Goal? company mission?
 2. Metrics? SMART
 3. How to move the metric?
-4. data analysis, pick Variables, EDA, dimensions for segmentation, one bad segment, one good segment. Use combination of user characteristics (sex, age, country, # of friends, etc.) 
+4. data analysis, pick Variables, EDA, dimensions for segmentation, one bad segment, one good segment. Use combination of user characteristics (sex, age, country, # of friends,
+tenure: new vs existing users etc.) 
    and related to their browsing/online behavior (device, they came from ads/SEO/direct link, session time, etc.).
 5. A/B testing, experimentation on new product/features? any cannibanization?  test and control need to be independent and comparable before the test. 
 pick some representiative/comparable cities.
