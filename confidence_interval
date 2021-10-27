@@ -5,3 +5,13 @@ One sample proportion test
 Null hypotheses: p=p0
 Z=(p-p0)/sqrt(p0*(1-p0)/n)                                          reject if z > 1.96
 Confidence inrerval: p +- 1.96 sqrt (p(1-p)/n)
+
+
+What Is Confidence Interval?
+A confidence interval, in statistics, refers to the probability that a population parameter will fall between a set of values for a certain proportion of times.
+
+
+KEY TAKEAWAYS
+A confidence interval displays the probability that a parameter will fall between a pair of values around the mean.
+Confidence intervals measure the degree of uncertainty or certainty in a sampling method.
+They are most often constructed using confidence levels of 95% or 99%.
