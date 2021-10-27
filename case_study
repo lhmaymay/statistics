@@ -4,7 +4,9 @@ Framework for case study: typical case study questions (i.e.How do you increase 
 3. How to move the metric?
 4. data analysis, pick Variables, EDA, dimensions for segmentation, one bad segment, one good segment. Use combination of user characteristics (sex, age, country, # of friends, etc.) 
    and related to their browsing/online behavior (device, they came from ads/SEO/direct link, session time, etc.).
-5. A/B testing, experimentation on new product/features? any cannibanization?  test and control need to be independent and comparable before the test. pick some representiative/comparable cities
+5. A/B testing, experimentation on new product/features? any cannibanization?  test and control need to be independent and comparable before the test. 
+pick some representiative/comparable cities.
+ It is extremely hard to design an A/B test in marketplaces or social networks since users are all connected.
 6. if not possible, then ML models? short term proxy/index? list of model attributes? what kind of model algorithm to use? why this algorithm? explain the model and insights from the model?
 (using SHAP, paritial dependence plots, feature importance report) 
 survey, UX research
