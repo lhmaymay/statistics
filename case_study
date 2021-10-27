@@ -1,7 +1,8 @@
 Goal?
 Metrics?
 How to move the metric?
-Variables, dimensions for segmentation, one bad segment, one good segment
+Variables, dimensions for segmentation, one bad segment, one good segment. Use combination of user characteristics (sex, age, country, # of friends, etc.) 
+and related to their browsing/online behavior (device, they came from ads/SEO/direct link, session time, etc.).
 A/B testing, experimentation on new product/features?
 if not possible, then modeling? short term proxy/index
 survey, UX research
