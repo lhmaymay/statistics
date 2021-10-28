@@ -1,0 +1,7 @@
+
+ the probability of being an outlier on at least one dimension is 1 minus the probability of
+being within the 95% range for all the variables. That is, 1 - 0.95^100. This number is larger than 99%! 
+That essentially means that in high dimension every event is almost guaranteed to be an outlier on at least one
+dimension. If you imagine an n-dimensional space, where n is the number of features, all events will end up
+close to the border and the center will be empty. This is pretty much another way to rephrase the curse of
+dimensionality and has huge negative implications when it comes to modeling.
