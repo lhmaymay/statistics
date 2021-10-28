@@ -1,4 +1,7 @@
 How to choose the right metrics and set business goals?
+SMART
+AARRR
+
 Begin at the top (company-wide level) and work your way down, repeating this step until every team member has clear metrics and goals they’re responsible for achieving.
 
 Step 2 for building a goal-orientated team:
@@ -22,4 +25,10 @@ to go to a given place, you can do it, etc. Especially Silicon Valley companies 
 
 for example: 
 Mission: "Google's mission is to organize the world's information and make it universally accessible and useful." 
+
+Avoid vanity metrics, i.e. metrics that look good, but are useless. A good way to quickly identify if my metrics
+are useful is: imagine a bot is creating a bunch of fake accounts. Will my metrics go up? In the example above,
+we are good. The engagement metric will drop and alert us that something not good is going on. On the other
+hand, if you ONLY looked at new sign ups per day, you would be happy with the fake accounts. If they ask you
+for just one metric, make sure it is not a metric that a bot could improve.
 
