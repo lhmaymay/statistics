@@ -10,3 +10,7 @@ Version 1 is the old version
 Version 2 is the site with the People You May Know Feature, where suggestions are based on the
 machine learning model that was developed
 Version 3 is the site with the People You May Know Feature, but suggestions are random
+
+
+This approach is risky though cause users in version 3 might lose faith in the feature, and once users decide a
+new feature is bad, it is really hard to make them change their mind.
