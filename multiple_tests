@@ -1,0 +1,18 @@
+The problem is that, if you are running multiple tests at the same time, you are increasing the chances of
+finding unlikely events by probability only. Imagine you flip a biased coin with 5% probability of getting head. If
+you do it long enough, you will get a head. For the same reason, your significance level threshold in the tests
+needs to be adjusted to balance the fact that more experiments are increasing the probability of finding unlikely
+events.
+
+
+In practice, the most common approach is to use the Bonferroni correction, simply dividing 0.05 by the number
+of tests and this becomes the new threshold for significance. Another common approach is using false
+We are running 30 tests at the same time, trying
+different versions of our home page. In only one
+case test wins against old home page. P-value is
+0.04. Would you make the change?
+
+Answer:
+discovery rate. 
+The answer is therefore no, I wouldn't make the change. Indeed, if I were using Bonferroni, I would make the
+change only if test is better and p-value were less than 0.05/30.
