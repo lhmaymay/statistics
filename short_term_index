@@ -3,3 +3,9 @@ When asked to optimize a long term metric like retention rate or lifetime value,
 short term metric that can predict the long term one, and then focus on optimizing that one.
 
 average time spent on the product per day in last month is a short term index for long term churn rate.
+
+
+"how to test something that takes a long time to be evaluated". You
+can't run an A/B test for months. So, whenever your metric needs a long time to be evaluated, you need to find
+a short term proxy for the long term metric. This is the point of this question as well as similar questions about
+long term user engagement, retaining users, or estimating customer lifetime value.
