@@ -1,3 +1,4 @@
+use= 100 independent variables behind users
 
  the probability of being an outlier on at least one dimension is 1 minus the probability of
 being within the 95% range for all the variables. That is, 1 - 0.95^100. This number is larger than 99%! 
@@ -5,3 +6,11 @@ That essentially means that in high dimension every event is almost guaranteed t
 dimension. If you imagine an n-dimensional space, where n is the number of features, all events will end up
 close to the border and the center will be empty. This is pretty much another way to rephrase the curse of
 dimensionality and has huge negative implications when it comes to modeling.
+
+
+The implications of this phenomenon are also product-related and at the very core of why companies need
+data scientists. If you build just one product for everyone, you will have to build it for the average user. But in
+high dimension, in practice, no one has the characteristics of the average user. So you are building a product
+that perfectly fits no one! The entire idea behind data science and data products is to solve this statistical
+problem via personalization. And it is the difference between, say, FB newsfeed that is personalized on a user
+level using data science and a website that is the same for every user.
