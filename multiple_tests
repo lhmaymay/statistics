@@ -12,7 +12,8 @@ different versions of our home page. In only one
 case test wins against old home page. P-value is
 0.04. Would you make the change?
 
+
+
 Answer:
-discovery rate. 
 The answer is therefore no, I wouldn't make the change. Indeed, if I were using Bonferroni, I would make the
 change only if test is better and p-value were less than 0.05/30.
