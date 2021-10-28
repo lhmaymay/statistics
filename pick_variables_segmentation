@@ -11,3 +11,10 @@ or friend asking them to buy it on-line for them, or many other reasons. Models 
 data have no information about this, but assume users will buy for themselves. Looking at a user browsing
 history gives information about what a user is interested in buying regardless of whether it is a gift or for
 herself.
+
+In advertising, timing is the most important thing. You want to predict when a user is interested in buying
+something. Demographic information can tell you, for instance, that users of a certain age tend to buy a
+certain product. Browsing data tells the moment in which a certain user is thinking about buying a product.
+This is orders of magnitude more useful, especially in the online ad business that's largely based on
+monetizing clicks. So they make money if the user clicks on the ad right when they show it to them.
+Famously, Facebook revenue spiked when they moved from demographic-based ads to using browsing data.
