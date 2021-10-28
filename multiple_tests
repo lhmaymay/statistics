@@ -17,3 +17,13 @@ case test wins against old home page. P-value is
 Answer:
 The answer is therefore no, I wouldn't make the change. Indeed, if I were using Bonferroni, I would make the
 change only if test is better and p-value were less than 0.05/30.
+
+
+Please, note that in this case the question was very straightforward. But you might also get it in a more
+subliminal way. For instance, they show you one test results. Test is not significantly different. Then, they
+segment the results by say 20 countries with large enough sample size. And show that one of these countries
+is actually significantly better with 0.04 p-value. Then they ask you what you would do. This case is exactly the
+same as the original question. By looking into several different segments, you are increasing the probability of
+finding at least one winner by chance. And, therefore, you should change the significance threshold
+accordingly. In this example, if you only looked at the 20 country segments, you could make it 0.05/20 using
+Bonferroni.
