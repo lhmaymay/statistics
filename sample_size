@@ -1,0 +1,9 @@
+sample size or test duration
+
+
+It is extremely unlikely that they want the actual formula here (although it wouldn't hurt knowing it). Usually, they
+want to know which parameters you need to define in order to estimate the sample size. That is:
+Significance level, usually 0.05
+Power, usually 0.8
+Expected standard deviation of the change in the metric
+Minimum effect size you are interested in detecting via your tes
