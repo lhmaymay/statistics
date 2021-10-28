@@ -1,0 +1,12 @@
+changes:
+new UI
+new ML algorithm behind the UIC
+
+3 groups:
+you need to test each component separately. After all, the whole point of A/B testing is to
+isolate the effect of just one change. A way to exactly isolate the two components is to run 3 versions of the site
+at the same time:
+Version 1 is the old version
+Version 2 is the site with the People You May Know Feature, where suggestions are based on the
+machine learning model that was developed
+Version 3 is the site with the People You May Know Feature, but suggestions are random
