@@ -1,0 +1,13 @@
+LinkedIn has tested a new UI with the goal to
+increase the number of likes per user. They test it
+by giving the new UI to a random subset of users
+Test wins by 5% on the target metric. What do you expect to
+happen after the new UI is applied to all users? Will that
+metric actually go up by ~5%, more, or less? Assume there
+is no novelty effect here
+
+Another reason to expect a larger gain is that social networks are affected by network effects (obviously). The
+more people are using a given product, the more value there is for other people in the network, and, therefore,
+the more likely other people are to use the product itself. This creates a virtuous circle. 
+Once this new successful feature will be given to everyone, its value will be higher than just a subset of users
+and, as a consequence, final metric gain will be higher than what a test would suggest
