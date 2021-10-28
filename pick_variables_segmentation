@@ -2,3 +2,12 @@
 After the metric, pick the variables you think would matter to move that metric. Almost always a
 combination of user characteristics (sex, age, country, # of friends, etc.) and related to their
 browsing/online behavior (device, they came from ads/SEO/direct link, session time, etc.).
+
+
+There are two key differences between
+demographic and behavioral/browsing data. 
+People are actually really likely to buy products not only for themselves. It can be a gift, it can be a relative
+or friend asking them to buy it on-line for them, or many other reasons. Models only built on demographic
+data have no information about this, but assume users will buy for themselves. Looking at a user browsing
+history gives information about what a user is interested in buying regardless of whether it is a gift or for
+herself.
