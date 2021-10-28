@@ -1,0 +1,4 @@
+The safest approach is therefore to use some label like "no_country" when the value is missing. And if by using
+other variables you can predict the actual country, for instance using a combination of ip address and service
+provider, then include those variables too in your training set. So for each user you can know both where she is
+based and whether she chose to tell you her country.
