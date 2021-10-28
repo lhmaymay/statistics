@@ -34,3 +34,17 @@ assumes that the new subscription features don't dramatically change user behavi
 model would not be useful anymore).
 If you can't predict long term retention after one week only of data, try two weeks, then three, etc. Very
 roughly speaking, three weeks of data should be enough to predict long term behavior in most cases.
+
+
+ "How to know if a short term change is positive, but will be negative
+in the long term".
+
+Defining from a metric perspective clickbait ads, we can expect a significantly larger than average clickthrough-rate (CTR). 
+This comes from the catchy headline. However, we can also expect a sharp decrease in
+CTR over time for those users who clicked on them. These users have lost faith in the ads and, therefore, will
+click much less on them in future.
+
+Please, note that this answer is about ads CTR, but, as should be clear from the definitions above, can really
+be applied to any questions of the family: "How to know if a short term change is positive, but will be negative
+in the long term". For instance, sending emails or notifications to users is an example of this. If you suddenly
+increase the number of notifications, you will likely get a short term gain followed by a long term drop.
