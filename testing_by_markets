@@ -1,7 +1,19 @@
 Testing by market is extremely common. In many cases, it is really hard to split users into independent groups,
 especially if your site is a social network or a marketplace where actions of one user have an effect on other
 users.
+
 A very common approach in those cases is testing by market. Find markets which are similar and whose users
 are not connected. Then match them in pairs and give users in one group of markets the test version and users
 in the other group the control version.
 
+Some good practices when it comes to testing by market are:
+Explain the drawbacks of running an A/B test by
+market (i.e. all people in one market get version A
+of the site and another market version B)
+
+Answer:
+Check one metric that's not supposed to be affected by your test. Make sure that during the test keeps
+behaving similarly for both markets
+Only test relevant features, i.e. features that are supposed to have a large impact on user behavior. Tests
+by market are more noisy and, therefore, you want to test something that, if successful, is expected to
+deliver gains well above the nois
