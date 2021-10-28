@@ -1,0 +1,7 @@
+Testing by market is extremely common. In many cases, it is really hard to split users into independent groups,
+especially if your site is a social network or a marketplace where actions of one user have an effect on other
+users.
+A very common approach in those cases is testing by market. Find markets which are similar and whose users
+are not connected. Then match them in pairs and give users in one group of markets the test version and users
+in the other group the control version.
+
