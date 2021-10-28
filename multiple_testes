@@ -1,0 +1,6 @@
+The problem is that, if you are running multiple tests at the same time, you are increasing the chances of
+finding unlikely events by probability only. Imagine you flip a biased coin with 5% probability of getting head. If
+you do it long enough, you will get a head. For the same reason, your significance level threshold in the tests
+needs to be adjusted to balance the fact that more experiments are increasing the probability of finding unlikely
+events.
+
