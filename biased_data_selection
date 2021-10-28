@@ -6,5 +6,8 @@ exposure: includes clinical susceptibility bias, protopathic bias, indication bi
 attrition: attrition bias is similar to survivorship bias, where only those that survived a long process are included in an analysis, or failure bias, where only those failed are included.
 data: cherry picking to read results from experiments (sub-pockets), suppressing evidence, and the fallacy of incomplete evidence.
 observer selection: any data we collected by universe is filtered by the fact that in order for it to be observable it must be comptatible with the conscious and sapient life that observes it.
-
-
+self-selection biases:
+When answering any kinds of questions, always think about whether (self-)selection biases are there or not.
+They are extremely common in tech. And btw it is also common for companies to send takehome challenges
+where one segment (i.e. no picture) performs much worse and they ask to explain why, the reason simply
+being self-selection bias
