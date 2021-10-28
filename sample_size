@@ -7,3 +7,16 @@ Significance level, usually 0.05
 Power, usually 0.8
 Expected standard deviation of the change in the metric
 Minimum effect size you are interested in detecting via your tes
+
+Via those values, you will be able to get the sample size required for your t-test. Then, by knowing how many
+users you have per day, you can estimate how many days it will take to reach the required sample size with a
+50/50 test-control split. If the final number is larger than 14 days, you are done. That's the number of days
+required. 
+If the final number is less than 14 days, you still want to run the test for 14 days in order to reliably capture
+weekly patterns. In this case, you might want to change the test-control split accordingly (like for instance 20%
+test and 80% control if 20% of users per day * 14 gives you the required sample size). That way you will still
+How to calculate for how long I should run an A/B
+test?
+
+Answer:
+get the required sample size in 14 days without "wasting test traffic
