@@ -14,3 +14,9 @@ Version 3 is the site with the People You May Know Feature, but suggestions are 
 
 This approach is risky though cause users in version 3 might lose faith in the feature, and once users decide a
 new feature is bad, it is really hard to make them change their mind.
+
+A milder approach would be to replace random suggestions with something super basic, which machine
+learning should easily beat, but that still makes sense. For instance, you can use a history-based model
+(suggest users whose profiles were visited in the past by that user) or simply suggest users with the highest
+number of shared connections. These versions will still give a baseline to compare your model to, without
+giving users in one test group the impression that your new feature is very stupid.
