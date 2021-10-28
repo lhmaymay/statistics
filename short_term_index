@@ -9,3 +9,28 @@ average time spent on the product per day in last month is a short term index fo
 can't run an A/B test for months. So, whenever your metric needs a long time to be evaluated, you need to find
 a short term proxy for the long term metric. This is the point of this question as well as similar questions about
 long term user engagement, retaining users, or estimating customer lifetime value.
+
+which short term metrics can be used to estimate subscription retention? A
+common approach is:
+Collect subscription retention data from people who subscribed more than 1 year back and label each
+user as 1 if was still subscribed after 12 months and 0 otherwise.
+Collect variables related to user behavior and segment them by time. For instance, start by picking as time
+limit one week and pick variables about user behavior within the first week since she subscribed (i.e. did
+she unsubscribe? Did she use any of the subscription products? How many times? etc.).
+See if using any of these variables you can accurately predict long term retention. This could be just one
+We made a change to our subscription offering
+adding new features. We expect this to increase
+subscription retention. How can we test if the
+change is successful?
+Answer:
+for instance you found out that proportion of people who unsubscribed or never used my product
+within the first week is a perfect proxy for long term retention. Or could be done via machine learning. You
+build a model to predict long term retention with those variables. In this case, the model output becomes
+your proxy for long term retention.
+You can now run a test where your target metric is based on the point above and can be evaluated after
+just one week. If you manage to increase the short term metric, you assume you are also increasing the
+long term one. After all, you proved that the short term metric can predict the long term one (obviously this
+assumes that the new subscription features don't dramatically change user behavior, otherwise your
+model would not be useful anymore).
+If you can't predict long term retention after one week only of data, try two weeks, then three, etc. Very
+roughly speaking, three weeks of data should be enough to predict long term behavior in most cases.
