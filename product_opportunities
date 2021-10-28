@@ -1,6 +1,12 @@
 
 
 How would you find out product opportunities?
+The easiest way for a data scientist to find product opportunities is by looking at current data and find
+something that people are already doing, but in a complicated way requiring multiple steps. Then, simplify that.
+Data science excels in identifying and removing inefficiencies. Whenever you get questions about new
+features, answer from that standpoint. It is the safest bet.
+
+simplification 
 
 example , whatsapp
 A step by step approach to identify these opportunities could be:
