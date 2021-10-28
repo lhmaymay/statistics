@@ -1,0 +1,24 @@
+
+
+If 70% of Facebook users on iOS use Instagram,
+but only 35% of Facebook users on Android use
+Instagram, how would you investigate the
+discrepancy?
+
+OS is just acting as a proxy for other variables
+
+
+A quick way to check this could be: build a decision tree using user-related variables + OS to predict Instagram
+usage. If the tree doesn't significantly use the OS variable, you are sure that it doesn't really matter. In this
+case, the tree would split on, for instance, combinations of country and age since that's where most of the
+information is. If OS is acting as a proxy for those variables, for sure the tree would choose those other
+variables first, as they would allow for a better classification. After those splits, there is no information left to
+extract from OS so the tree won't touch it. It is important that you choose a model that works well with
+correlated variables, like trees.
+
+You could get similar conclusions by building two models: one including OS and one without. If prediction is the
+same, it means there is no information in OS that's not already in the other variables.
+Another option would be to generate simulated datasets where you adjust the distributions of all other
+variables. So that now you have the same age, country, etc, distribution for both iOS and Android. And check if
+proportion of Instagram users is still different or not.
+
