@@ -1,0 +1,19 @@
+change in user distribution
+
+A change in user distribution is something that happens quite often (or at least should happen!). Early users are
+more tech-savvy and have in general different characteristics than the new users a company will acquire later
+on in its life. There is no reason to assume that a test that failed last year should also fail this year, if user base
+has evolved.
+
+It is therefore pretty common to look back at past tests and see if it makes sense to re-run one of them. A
+frequent way to see if it makes sense to re-run a test is to look at past test results, change the underlying
+distribution of users giving weights so that it resembles the current distribution, and see if results are promising
+
+"What's the major drawback of A/B testing?".
+They are all hinting at the same thing as the question above. The fact that A/B test results are not telling you in
+absolute terms which version is better. They are telling you which version is better given your current user
+base, which is the data you use to test.
+
+Matter of fact, it can be dangerous for a small company to over optimize using A/B testing on the entire
+population and to only look at the overall results. They might end up with a great site for tech-savvy and early
+adopter people, but never grow beside them, essentially finding local optima. 
