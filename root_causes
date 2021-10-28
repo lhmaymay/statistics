@@ -1,0 +1,12 @@
+root cause
+
+a useful thing that some companies do to catch user-facing bugs as fast as possible and minimize their
+impact is:
+Build a tool that keeps scraping customer service tickets
+Use NLP to extract tickets related to bugs and understand their domain
+Automatically email them to the engineers in charge of that part of the product 
+
+Note that this question is a subquestion of the question: "We found a drop in pictures uploads. How to find out
+the reason?". A possible way to answer it is to say that, firstly, you segment users by various features, such as
+browser, device, country, etc. Then you assume that you discovered that one segment dropped to zero. So you
+say it is likely a bug and, finally, explain where the bug could be, as above
