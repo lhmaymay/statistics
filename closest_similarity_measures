@@ -1,0 +1,12 @@
+This question is just a fancy way to ask: "Given an item (i.e. you) and a list of item candidates (i.e. your
+connections), find the most similar item". If the question were "For each song on Spotify, find the closest song",
+it would be very much the same.
+
+As usual, let's start by defining what means closest or most similar in this case. There are infinite ways to
+define best friends. Pick one definition that makes sense and move on. What they really want to see here is
+that you define it in some ways. If, by the end of this answer, you spent all the time talking about all possible
+definitions of best friends and didn't talk about item recommendation from a data science perspective, you
+know you have failed.
+
+Once you have all the variables above, you can use any similarity measure (like cosine similarity for instance)
+and, for each person, find the closest connection.
