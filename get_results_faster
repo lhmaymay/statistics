@@ -1,9 +1,15 @@
 
 
 Getting results faster: 
-Increase sample size. Product adjustment (increase sample size, increase eligible population
-Variance reduction 
+1: Increase sample size. Product adjustment (increase sample size, increase eligible population
+2: Variance reduction 
 (AA pre adjustment CUPED controlled experiment using pre-experiment data): need to have repeated user or using registration information)
-Sequential probability ratio test (peeking with sequential test)
-Fast surrogate
-Bandits design 
+3: Sequential probability ratio test (peeking with sequential test)
+4: Fast surrogate
+https://towardsdatascience.com/how-to-reduce-a-b-testing-duration-using-surrogate-metrics-3631c6295039
+How are surrogate metrics calculated?
+As noted above, a surrogate metric is a prediction of the north star metric using predictors observed during our experiment.
+
+shor term index of long term metrics (LCV, retention)
+
+5: Bandits design 
