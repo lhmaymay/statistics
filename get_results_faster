@@ -2,14 +2,22 @@
 
 Getting results faster: 
 1: Increase sample size. Product adjustment (increase sample size, increase eligible population
+
 2: Variance reduction 
 (AA pre adjustment CUPED controlled experiment using pre-experiment data): need to have repeated user or using registration information)
+
 3: Sequential probability ratio test (peeking with sequential test)
+
 4: Fast surrogate
 https://towardsdatascience.com/how-to-reduce-a-b-testing-duration-using-surrogate-metrics-3631c6295039
 How are surrogate metrics calculated?
 As noted above, a surrogate metric is a prediction of the north star metric using predictors observed during our experiment.
 
 shor term index of long term metrics (LCV, retention)
+when conducting experiments we look to use our metric variance to determine the “acceptable” range of values. If our observed treatment exceeds that range, 
+we reject the null hypothesis and conclude that our treatment had a statistically significant impact.
+The larger our prediction error, the larger our “acceptable” range, leading to a low-powered test. In short, less variation in our prediction interval increases our 
+ability to detect statistically significant changes.
+So, when implementing a surrogate metric, try to use a feature set and algorithm that has a low variance confidence interval around the prediction.
 
 5: Bandits design 
