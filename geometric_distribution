@@ -1,1 +1,7 @@
 
+
+
+
+The expected number of rolls would be inverse of probability of getting all the number from 1 to 6. In that order the probability is (1/6)^6. 
+Taking all permutations the answer becomes 6!/6^6 as the probability of getting all the numbers on a dice. So the expected number of rolls would be 6^6/6! = 65 rolls.
+Applying this to a coin toss we get 2^2/2! = 2, ie expected value of tosses to see both head and tail is 2. For a three sided die this would be 3^3/3! which produces 5.
