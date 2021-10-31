@@ -2,3 +2,6 @@ Fast surrogate
 
 https://en.wikipedia.org/wiki/Surrogate_model
 
+A surrogate model is an engineering method used when an outcome of interest cannot be easily directly measured, so a model of the outcome is used instead. 
+Most engineering design problems require experiments and/or simulations to evaluate design objective
+and constraint functions as a function of design variables.
