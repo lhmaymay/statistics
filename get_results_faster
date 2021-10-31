@@ -19,5 +19,10 @@ we reject the null hypothesis and conclude that our treatment had a statisticall
 The larger our prediction error, the larger our “acceptable” range, leading to a low-powered test. In short, less variation in our prediction interval increases our 
 ability to detect statistically significant changes.
 So, when implementing a surrogate metric, try to use a feature set and algorithm that has a low variance confidence interval around the prediction.
+To have a statically “correct” surrogate metric, that metric must be the only piece of information required to determine the north star metric. In other words, there cannot be missing information in our model that would improve the fit.
+
+
+First, it’s important to predict the surrogate metric well. The researchers at LinkedIn cited an R² value of 0.69 as effective, but the definition of a good prediction depends on your use case.
+
 
 5: Bandits design 
