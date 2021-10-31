@@ -1,3 +1,7 @@
+Family-wise error rate (FWER) is the probability of making one or more false discoveries, or type I errors when performing multiple hypotheses tests.
+The FWER is the probability of making at least one type I error in the family,
+
+
 The problem is that, if you are running multiple tests at the same time, you are increasing the chances of
 finding unlikely events by probability only. Imagine you flip a biased coin with 5% probability of getting head. If
 you do it long enough, you will get a head. For the same reason, your significance level threshold in the tests
