@@ -1,0 +1,9 @@
+https://www.statisticshowto.com/t-statistic/
+
+The Z-score allows you to decide if your sample is different from the population mean. In order to use z, you must know four things:
+
+The population mean.
+The population standard deviation.
+The sample mean.
+The sample size.
+Usually in stats, you don’t know anything about a population, so instead of a Z score you use a T Test with a T Statistic. The major difference between using a Z score and a T statistic is that you have to estimate the population standard deviation. The T test is also used if you have a small sample size (less than 30).
